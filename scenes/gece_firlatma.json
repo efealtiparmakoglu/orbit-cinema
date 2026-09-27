@@ -1,0 +1,88 @@
+{
+  "output": "renders/gece_firlatma.png",
+  "sefer": {
+    "duman_t": 2.6,
+    "kalkis_t": 0.9
+  },
+  "sun": {
+    "elevation_deg": -6,
+    "azimuth_deg": 215,
+    "strength": 0.4,
+    "color": [
+      0.5,
+      0.6,
+      0.9
+    ]
+  },
+  "sky": {
+    "strength": 0.1
+  },
+  "floodlights": [
+    {
+      "position": [
+        -38,
+        -30,
+        9
+      ],
+      "guc": 11000,
+      "hedef": [
+        -8,
+        0,
+        25
+      ]
+    },
+    {
+      "position": [
+        22,
+        -32,
+        8
+      ],
+      "guc": 7000,
+      "hedef": [
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "position": [
+        -20,
+        32,
+        10
+      ],
+      "guc": 5000,
+      "hedef": [
+        -8,
+        0,
+        45
+      ]
+    }
+  ],
+  "zemin": {
+    "color": [
+      0.03,
+      0.032,
+      0.028
+    ]
+  },
+  "camera": {
+    "position": [
+      -82,
+      -90,
+      26
+    ],
+    "look_at": [
+      -12,
+      0,
+      16
+    ],
+    "lens": 35
+  },
+  "render": {
+    "width": 1600,
+    "height": 900,
+    "samples": 192,
+    "exposure": 0.7,
+    "look": "Medium High Contrast"
+  }
+}
